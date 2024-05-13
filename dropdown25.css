@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, red,orange,pink);
+    height: 100vh;
+}
+nav{
+    background-color: aquamarine;
+}
+#cont{
+    display: flex;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: deeppink;
+    padding: 40px;
+    display: block;
+}
+a:hover{
+    background-color: chartreuse;
+}
+#cold{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: cornflowerblue;
+    position: absolute;
+    display: none;
+}
+#drop1:hover #cold{
+    display: block;
+    background-color:royalblue;
+}
+#hot{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: gold;
+    position: absolute;
+    display: none;
+}
+#drop2:hover #hot{
+    display: block;
+    background-color: salmon;
+}
